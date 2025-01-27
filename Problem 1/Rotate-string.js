@@ -1,5 +1,5 @@
 var rotateString = function(s, goal) {
-    return s.length == goal.length && (s + s).includes(goal)
+    return s.length === goal.length && (s + s).includes(goal)
 };
 
 // Example usage:
